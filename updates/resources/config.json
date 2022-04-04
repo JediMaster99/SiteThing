@@ -1,6 +1,6 @@
 ﻿{
-  "Host": "localhost",
-  "Port": 5400,
+  "Host": "artists-aims.at.playit.gg",
+  "Port": 24749,
   "GameFont": "sourcesansproblack",
   "EntityNameFont": "sourcesansproblack",
   "ChatBubbleFont": "sourcesansproblack",
@@ -10,5 +10,6 @@
   "MenuMusic": "RPG-Theme_v001_Looping.ogg",
   "MenuBackground": "background.png",
   "IntroImages": [],
-  "UpdateUrl": ""
+  "UpdateUrl": "",
+  "MouseCursor": ""
 }

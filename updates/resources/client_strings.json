@@ -110,7 +110,8 @@
     "channels": {
       "0": "local",
       "1": "global",
-      "2": "party"
+      "2": "party",
+      "3": "guild"
     },
     "channeladmin": "admin",
     "enterchat": "Click here to chat.",
@@ -181,6 +182,7 @@
       "openparties": "Open Parties:",
       "openspells": "Open Spells:",
       "openfriends": "Open Friends:",
+      "openguild": "Open Guild:",
       "opensettings": "Open Settings:",
       "opendebugger": "Open Debugger:",
       "openadminpanel": "Open Admin Panel:",
@@ -191,7 +193,9 @@
     "title": "Controls"
   },
   "Crafting": {
-    "craft": "Craft",
+    "craft": "Craft 1",
+    "craftall": "Craft {00}",
+    "craftstop": "Stop",
     "incorrectresources": "You do not have the correct resources to craft this item.",
     "ingredients": "Requires:",
     "product": "Crafting:",
@@ -216,7 +220,8 @@
     "title": "Debug",
     "x": "X: {00}",
     "y": "Y: {00}",
-    "z": "Z: {00}"
+    "z": "Z: {00}",
+    "interfaceobjects": "Interface Objects: {00}"
   },
   "EntityBox": {
     "nameandlevel": "{00}    {01}",
@@ -272,6 +277,7 @@
     "addfriend": "Add Friend",
     "addfriendtitle": "Add Friend",
     "addfriendprompt": "Who would you like to add as a friend?",
+    "infight": "You are currently fighting!",
     "removefriend": "Remove Friend",
     "removefriendprompt": "Do you wish to remove {00} from your friends list?",
     "request": "Friend Request",
@@ -288,13 +294,52 @@
     "spells": "Spell Book"
   },
   "General": {
-    "none": "None"
+    "none": "None",
+    "mapitemstackable": "{01} {00}"
+  },
+  "Guilds": {
+    "guild": "Guild",
+    "guildtip": "Send {00} an invite to your guild.",
+    "invite": "Invite",
+    "notinguild": "You are not currently in a guild!",
+    "invitemembertitle": "Invite Player",
+    "invitememberprompt": "Who would you like to invite to {00}?",
+    "inviterequesttitle": "Guild Invite",
+    "inviterequestprompt": "{00} would like to invite you to join their guild, {01}. Do you accept?",
+    "leave": "Leave",
+    "leavetitle": "Leave Guild",
+    "leaveprompt": "Are you sure you would like to leave your guild?",
+    "promote": "Promote to {00}",
+    "demote": "Demote to {00}",
+    "kick": "Kick",
+    "pm": "PM",
+    "transfer": "Transfer",
+    "onlinelistentry": "[{00}] {01} - {02}",
+    "offlinelistentry": "[{00}] {01} - {02}",
+    "tooltip": "Lv. {00} {01}",
+    "kicktitle": "Kick Guild Member",
+    "kickprompt": "Are you sure you would like to kick {00}?",
+    "promotetitle": "Promote Guild Member",
+    "promoteprompt": "Are you sure you would like promote {00} to rank {01}?",
+    "demotetitle": "Demote Guild Member",
+    "demoteprompt": "Are you sure you would like to demote {00} to rank {01}?",
+    "transfertitle": "Transfer Guild",
+    "transferprompt": "This action will completely transfer all ownership of your guild to {00} and you will lose your rank of {01}. If you are sure you want to hand over your guild enter '{02}' below.",
+    "bank": "{00} Guild Bank",
+    "notallowedwithdraw": "You do not have permission to withdraw from {00}'s guild bank!",
+    "notalloweddeposit": "You do not have permission to deposit items into {00}'s guild bank!",
+    "notallowedswap": "You do not have permission to swap items around within {00}'s guild bank!",
+    "invitealreadyinguild": "The player you're trying to invite is already in a guild or has a pending invite."
   },
   "InputBox": {
     "cancel": "Cancel",
     "no": "No",
     "okay": "Okay",
     "yes": "Yes"
+  },
+  "MapItemWindow": {
+    "title": "Loot",
+    "lootbutton": "Loot All"
   },
   "Inventory": {
     "cooldown": "{00}s",
@@ -578,6 +623,7 @@
     "autoclosewindows": "Auto-close Windows",
     "musicvolume": "Music Volume: {00}%",
     "resolution": "Resolution:",
+    "resolutioncustom": "Custom Resolution",
     "restore": "Restore Defaults",
     "soundvolume": "Sound Volume: {00}%",
     "targetfps": "Target FPS:",
@@ -586,6 +632,7 @@
     "vsync": "V-Sync"
   },
   "Parties": {
+    "infight": "You are currently fighting!",
     "inviteprompt": "{00} has invited you to their party. Do you accept?",
     "kick": "Kick {00}",
     "kicklbl": "Kick",
@@ -741,6 +788,7 @@
   },
   "Trading": {
     "accept": "Accept",
+    "infight": "You are currently fighting!",
     "offeritem": "Offer Item",
     "offeritemprompt": "How many/much {00} would you like to offer?",
     "pending": "Pending",
@@ -777,5 +825,8 @@
     "files": "{00} Files Remaining",
     "size": "{00} Left",
     "percent": "{00}%"
+  },
+  "GameWindow": {
+    "entitynameandlevel": "{00} [Lv. {01}]"
   }
 }

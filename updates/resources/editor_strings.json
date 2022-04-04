@@ -36,7 +36,7 @@
     "renderbelowfringe": "Render Below Fringe",
     "save": "Save",
     "searchplaceholder": "Search...",
-    "sortchronologically": "Order Chronologically",
+    "sortalphabetically": "Order Alphabetically",
     "simulatedarkness": "Simulate Darkness: {00}",
     "sound": "Sound:",
     "soundcomplete": "Complete Sound Playback After Anim Dies",
@@ -63,12 +63,33 @@
   "Attributes": {
     "animation": "Animation:",
     "blocked": "Blocked",
+    "critter": "Critter",
+    "crittermovements": {
+      "0": "Move Randomly",
+      "1": "Turn Randomly",
+      "2": "Stand Still"
+    },
+    "critterlayers": {
+      "0": "Below Player",
+      "1": "Same as Player",
+      "2": "Above Player"
+    },
+    "crittersprite": "Sprite:",
+    "critteranimation": "Animation:",
+    "crittermovement": "Movement:",
+    "critterlayer": "Layer:",
+    "critterspeed": "Speed (ms):",
+    "critterfrequency": "Freq (ms):",
+    "critterignorenpcavoids": "Ignore Npc Avoids",
+    "critterblockplayers": "Block Players",
+    "critterdirection": "Direction:",
     "dir": "Dir:",
     "distance": "Distance (In Tiles):",
     "grapple": "Grapple Stone",
     "item": "Item:",
     "itemspawn": "Item Spawn",
     "mapanimation": "Animation",
+    "mapanimationblock": "Block Tile",
     "mapsound": "Map Sound",
     "npcavoid": "NPC Avoid",
     "quantity": "Quantity:",
@@ -159,7 +180,7 @@
     "scalingamount": "Scaling Amount (%):",
     "scalingstat": "Scaling Stat:",
     "searchplaceholder": "Search...",
-    "sortchronologically": "Order Chronologically",
+    "sortalphabetically": "Order Alphabetically",
     "spawnitems": "Spawn Items",
     "spawnitem": "Item:",
     "spawnamount": "Amount:",
@@ -229,7 +250,7 @@
     "pasteprompt": "You cannot undo an event-paste operation! Are you sure you want to overwrite this event?",
     "pastetitle": "Paste Warning!",
     "searchplaceholder": "Search...",
-    "sortchronologically": "Order Chronologically",
+    "sortalphabetically": "Order Alphabetically",
     "title": "Common Event Editor"
   },
   "CraftingTableEditor": {
@@ -247,12 +268,15 @@
     "paste": "Paste Table",
     "save": "Save",
     "searchplaceholder": "Search...",
-    "sortchronologically": "Order Chronologically",
+    "sortalphabetically": "Order Alphabetically",
     "tables": "Tables",
     "title": "Crafting Tables Editor",
     "undo": "Undo Changes",
     "undoprompt": "Are you sure you want to undo changes made to this table? This action cannot be reverted!",
-    "undotitle": "Undo Changes"
+    "undotitle": "Undo Changes",
+    "addcraftlabel": "Add Item To Be Crafted:",
+    "add": "Add Selected",
+    "remove": "Remove Selected"
   },
   "CraftsEditor": {
     "cancel": "Cancel",
@@ -282,12 +306,13 @@
     "paste": "Paste Craft",
     "save": "Save",
     "searchplaceholder": "Search...",
-    "sortchronologically": "Order Chronologically",
+    "sortalphabetically": "Order Alphabetically",
     "time": "Time (ms):",
     "title": "Crafts Editor",
     "undo": "Undo Changes",
     "undoprompt": "Are you sure you want to undo changes made to this craft? This action cannot be reverted!",
-    "undotitle": "Undo Changes"
+    "undotitle": "Undo Changes",
+    "commonevent": "Common Event:"
   },
   "Directions": {
     "dir": {
@@ -346,7 +371,9 @@
     "original": "Original",
     "fullscreen": "Full Screen",
     "halfscreen": "Half Screen",
-    "stretchtofit": "Stretch To Fit"
+    "stretchtofit": "Stretch To Fit",
+    "hide": "Hide After (ms):",
+    "wait": "Wait Until Closed?"
   },
   "EventChangeGender": {
     "cancel": "Cancel",
@@ -365,6 +392,11 @@
       "1": "Take"
     },
     "amount": "Amount:",
+    "amounttype": "Amount Type",
+    "variable": "Variable",
+    "manual": "Manual",
+    "playervariable": "Player Variable",
+    "servervariable": "Global Variable",
     "cancel": "Cancel",
     "item": "Item:",
     "method": "Method:",
@@ -380,7 +412,8 @@
     "cancel": "Cancel",
     "item": "Item:",
     "okay": "Ok",
-    "title": "Equip Player Items"
+    "title": "Equip/Unequip Player Items",
+    "unequip": "Unequip?"
   },
   "EventChangeVital": {
     "cancel": "Cancel",
@@ -402,6 +435,12 @@
     "select": "Select Color",
     "adminoverride": "Override Admin Name Color?",
     "remove": "Remove Name Color?"
+  },
+  "EventChangeName": {
+    "cancel": "Cancel",
+    "okay": "Ok",
+    "title": "Change Name",
+    "variable": "Player Variable:"
   },
   "EventChangeSpells": {
     "action": "Action: ",
@@ -457,8 +496,10 @@
     "animationrelativedir": "Spawn Relative To Direction",
     "animationrelativerotate": "Spawn And Rotate Relative To Direction",
     "animationrotatedir": "Rotate Relative To Direction",
+    "changename": "Change Name to Variable: {00}",
     "changeitems": "Change Player Items [{00}]",
     "equipitem": "Equip Player Item [{00}]",
+    "unequipitem": "Unequip Player Item [{00}]",
     "changespells": "Change Player Spells [{00}]",
     "chatboxtext": "Show Chatbox Text [Channel: {00}, Color: {01}] - {02}",
     "chatglobal": "Global",
@@ -490,6 +531,7 @@
     "endoptions": "End Options",
     "endquest": "End Quest [{00}, {01}]",
     "endspell": "End Spell Change",
+    "endname": "End Name Change",
     "endstartquest": "End Start Quest",
     "exitevent": "Exit Event Processing",
     "fadeoutbgm": "Fadeout BGM",
@@ -570,6 +612,8 @@
     "spawnonplayer": "On Player [X Offset: {00} Y Offset: {01} Dir: {02}]",
     "spellfailed": "Spell Not Taught/Moved (Already Knew/Spellbook full/Didn't Know)",
     "spellsucceeded": "Spell Taught/Removed Successfully",
+    "namesucceeded": "Name Changed Successfully",
+    "namefailed": "Name Not Changed (Taken, Invalid etc.)",
     "startquest": "Start Quest [{00}, {01}]",
     "stopsounds": "Stop Sounds",
     "subtractvariable": "Subtract {00}",
@@ -583,7 +627,28 @@
     "wait": "Wait {00}ms",
     "waitforroute": "Wait for Move Route Completion of {00}",
     "warp": "Warp Player [Map: {00} X: {01} Y: {02} Dir: {03}]",
-    "whenoption": "When [{00}]"
+    "whenoption": "When [{00}]",
+    "changeplayercolor": "Change Player Color to: R: {00} G: {01} B: {02} A: {03}",
+    "createguild": "Create Guild [Player Variable {00} as name]",
+    "guildcreated": "Guild created successfully.",
+    "guildfailed": "Guild failed to create.",
+    "endcreateguild": "End Create Guild",
+    "disbandguild": "Disband Guild",
+    "guildisbanded": "Guild disbanded successfully.",
+    "guilddisbandfailed": "Guild failed to disband.",
+    "enddisbandguild": "End Disband Guild",
+    "openguildbank": "Open Guild Bank",
+    "setguildbankslots": "Set Guild Bank Slots",
+    "resetstatpointallocations": "Reset Player Stat Point Allocations"
+  },
+  "EventChangePlayerColor": {
+    "cancel": "Cancel",
+    "okay": "Ok",
+    "title": "Change Player Color",
+    "red": "Red:",
+    "green": "Green:",
+    "blue": "Blue:",
+    "alpha": "Alpha:"
   },
   "EventCommands": {
     "commands": {
@@ -641,10 +706,18 @@
       "warpplayer": "Warp Player",
       "hideplayer": "Hide Player",
       "showplayer": "Show Player",
-      "equipitem": "Equip Item",
+      "equipitem": "Equip/Unequip Item",
       "changenamecolor": "Change Name Color",
       "inputvariable": "Input Variable",
-      "changeplayerlabel": "Change Player Label"
+      "changeplayerlabel": "Change Player Label",
+      "changeplayercolor": "Change Player Color",
+      "changename": "Change Player Name",
+      "guilds": "Guilds",
+      "createguild": "Create Guild",
+      "disbandguild": "Disband Guild",
+      "openguildbank": "Open Guild Bank",
+      "setguildbankslots": "Set Guild Bank Slots Count",
+      "resetstatallocations": "Reset Stat Point Allocations"
     }
   },
   "EventCompleteQuestTask": {
@@ -695,7 +768,9 @@
       "15": "Gender is...",
       "16": "Map is...",
       "17": "Item Equipped is...",
-      "18": "Has X free Inventory slots..."
+      "18": "Has X free Inventory slots...",
+      "19": "In Guild With At Least Rank...",
+      "20": "Map Zone Type is..."
     },
     "endrange": "End Range:",
     "false": "False",
@@ -760,7 +835,14 @@
     "type": "Condition Type:",
     "value": "Static Value:",
     "variable": "Variable Is...",
-    "freeinventoryslots": "Has X free Inventory slots"
+    "freeinventoryslots": "Has X free Inventory slots",
+    "amounttype": "Amount Type",
+    "variablelabel": "Variable",
+    "manual": "Manual",
+    "inguild": "In Guild With At Least Rank...",
+    "rank": "Rank:",
+    "mapzonetypeis": "Map Zone Type is:",
+    "mapzonetypelabel": "Zone Type:"
   },
   "EventConditionDesc": {
     "admin": "Admin",
@@ -776,6 +858,7 @@
     "globalvariablevalue": "Global Variable: {00}'s Value",
     "greater": "is greater than {00}",
     "greaterequal": "is greater than or equal to {00}",
+    "guild": "Player is in Guild with at least rank: {00}",
     "hasitem": "Player has at least {00} of Item {01}",
     "hasitemequipped": "Player has Item {00} equipped",
     "knowsspell": "Player knows Spell {00}",
@@ -800,6 +883,7 @@
     "questinprogress": "Quest In Progress: {00} {01}",
     "selfswitch": "Self Switch {00} is {01}",
     "hasfreeinventoryslots": "Player has {00} free inventory slot(s)",
+    "mapzonetypeis": "Map Zone Type is {00}",
     "selfswitches": {
       "0": "A",
       "1": "B",
@@ -811,6 +895,20 @@
     "time": "Time is between {00} and {01}",
     "timeinvalid": "invalid",
     "true": "True"
+  },
+  "EventCreateGuild": {
+    "cancel": "Cancel",
+    "selectvariable": "Player Variable containing Guild Name:",
+    "okay": "Ok",
+    "title": "Create Guild"
+  },
+  "EventGuildSetBankSlotsCount": {
+    "variable": "Variable",
+    "playervariable": "Player Variable",
+    "servervariable": "Global Variable",
+    "cancel": "Cancel",
+    "okay": "Ok",
+    "title": "Set Guild Bank Slots Count"
   },
   "EventEditor": {
     "addcommand": "Add Commands",
@@ -828,7 +926,13 @@
       "5": "Autorun",
       "6": "PVP Kill",
       "7": "PVP Death",
-      "8": "Player Interact"
+      "8": "Player Interact",
+      "9": "Equipment Changed",
+      "10": "Player Variable Changed",
+      "11": "Server Variable Changed",
+      "12": "Guild Member Joined",
+      "13": "Guild Member Left",
+      "14": "Guild Member Kicked"
     },
     "conditions": "Conditions",
     "copypage": "Copy Page",
@@ -912,7 +1016,12 @@
     "cancel": "Cancel",
     "label": "Give Experience:",
     "okay": "Ok",
-    "title": "Give Experience"
+    "title": "Give Experience",
+    "amounttype": "Amount Type",
+    "variable": "Variable",
+    "manual": "Manual",
+    "playervariable": "Player Variable",
+    "servervariable": "Global Variable"
   },
   "EventGotoLabel": {
     "cancel": "Cancel",
@@ -1191,7 +1300,8 @@
     "title": "Warp"
   },
   "General": {
-    "none": "None"
+    "none": "None",
+    "missing": "Missing Translation"
   },
   "ItemEditor": {
     "abilitypowerbonus": "Ability Pwr:",
@@ -1221,11 +1331,22 @@
     },
     "bonuses": "Stat Bonuses",
     "bonusrange": "Stat Bonus Range (+-):",
-    "bound": "Bound?",
+    "candrop": "Can Drop?",
+    "deathdropchance": "Drop chance on Death (%):",
+    "canbag": "Can Bag?",
+    "canbank": "Can Bank?",
+    "canguildbank": "Can Guild Bank?",
+    "cantrade": "Can Trade?",
+    "cansell": "Can Sell?",
     "cancel": "Cancel",
     "consumeablepanel": "Consumable",
     "consumeamount": "Amount:",
     "cooldown": "Cooldown (ms):",
+    "cooldowngroup": "Cooldown Group:",
+    "cooldowngrouptitle": "Add Cooldown Group",
+    "cooldowngroupprompt": "Enter a name for the cooldown group you'd like to add:",
+    "ignoreglobalcooldown": "Ignore Global Cooldown?",
+    "ignorecooldownreduction": "Ignore Cooldown Reduction?",
     "copy": "Copy Item",
     "critchance": "Crit Chance (%):",
     "critmultiplier": "Crit Multiplier (Default 1.5x):",
@@ -1257,6 +1378,10 @@
     "new": "New Item",
     "paste": "Paste Item",
     "picture": "Pic:",
+    "red": "Red:",
+    "green": "Green:",
+    "blue": "Blue:",
+    "alpha": "Alpha:",
     "price": "Price:",
     "rarity": {
       "0": "None",
@@ -1267,12 +1392,14 @@
       "5": "Legendary"
     },
     "projectile": "Projectile:",
+    "requirementsgroup": "Requirements",
+    "cannotuse": "Cannot Use Message:",
     "requirements": "Edit Usage Requirements",
     "save": "Save",
     "scalingamount": "Scaling Amount (%):",
     "scalingstat": "Scaling Stat:",
     "searchplaceholder": "Search...",
-    "sortchronologically": "Order Chronologically",
+    "sortalphabetically": "Order Alphabetically",
     "slot": "Equipment Slot:",
     "speedbonus": "Speed:",
     "spell": "Spell:",
@@ -1281,6 +1408,8 @@
     "destroyspell": "Destroy On Use?",
     "singleuseevent": "Destroy On Use?",
     "stackable": "Stackable?",
+    "inventorystacklimit": "Inventory Stack Limit:",
+    "bankstacklimit": "Bank Stack Limit:",
     "title": "Item Editor",
     "tooltype": "Tool Type:",
     "twohanded": "2 Hand",
@@ -1360,7 +1489,6 @@
     "npceditor": "Npc Editor",
     "options": "Options",
     "overlay": "Overlay",
-    "packtextures": "Pack Client Textures",
     "paste": "Paste",
     "pen": "Pen Tool",
     "postquestion": "Post Question",
@@ -1431,7 +1559,7 @@
     "title": "Map Layers"
   },
   "MapList": {
-    "chronological": "Order Chronologically",
+    "alphabetical": "Alphabetical",
     "copyid": "Copy Id",
     "delete": "Delete",
     "deleteconfirm": "Are you sure you want to delete {00}?",
@@ -1524,13 +1652,16 @@
     "general": "General",
     "hp": "HP:",
     "hpregen": "HP (%);",
+    "individualizedloot": "Spawn loot for all attackers?",
     "magicresist": "Magic Resist:",
     "mana": "Mana:",
     "movement": "Movement",
+    "resetradius": "Reset Radius:",
     "movements": {
       "0": "Move Randomly",
       "1": "Turn Randomly",
-      "2": "Stand Still"
+      "2": "Stand Still",
+      "3": "Static"
     },
     "mpregen": "MP (%):",
     "name": "Name:",
@@ -1551,13 +1682,17 @@
     "scalingamount": "Scaling Amount (%):",
     "scalingstat": "Scaling Stat:",
     "searchplaceholder": "Search...",
-    "sortchronologically": "Order Chronologically",
+    "sortalphabetically": "Order Alphabetically",
     "sightrange": "Sight Range:",
     "spawnduration": "Spawn Duration: (ms)",
     "speed": "Speed:",
     "spell": "Spell:",
     "spells": "Spells",
     "sprite": "Sprite",
+    "red": "Red:",
+    "green": "Green:",
+    "blue": "Blue:",
+    "alpha": "Alpha:",
     "stats": "Stats:",
     "swarm": "Swarm",
     "title": "Npc Editor",
@@ -1583,7 +1718,13 @@
     "generaltab": "General",
     "pathgroup": "Client Path",
     "tilesetwarning": "Suppress large tileset size warning.",
-    "title": "Options"
+    "title": "Options",
+    "updatetab": "Update",
+    "packageupdates": "Package assets when generating updates.",
+    "packageoptions": "Asset Packing Options",
+    "musicbatch": "Music Batch Size",
+    "soundbatch": "Sound Batch Size",
+    "texturesize": "Texture Pack Size"
   },
   "ProgressForm": {
     "cancel": "Cancel"
@@ -1623,7 +1764,7 @@
     "removeanimation": "Remove",
     "save": "Save",
     "searchplaceholder": "Search...",
-    "sortchronologically": "Order Chronologically",
+    "sortalphabetically": "Order Alphabetically",
     "spawndelay": "Spawn Delay (ms):",
     "spawnrange": "Spawn Range: {00} - {01}",
     "spawns": "Projectile Spawns",
@@ -1668,7 +1809,7 @@
     "requirements": "Quest Requirements",
     "save": "Save",
     "searchplaceholder": "Search...",
-    "sortchronologically": "Order Chronologically",
+    "sortalphabetically": "Order Alphabetically",
     "showafter": "Show in quest log after completing quest?",
     "showbefore": "Show in quest log before accepting quest?",
     "startevent": "Quest: {00} - Start Event",
@@ -1676,7 +1817,12 @@
     "title": "Quest Editor",
     "undo": "Undo Changes",
     "undoprompt": "Are you sure you want to undo changes made to this quest? This action cannot be reverted!",
-    "undotitle": "Undo Changes"
+    "undotitle": "Undo Changes",
+    "unstartedcategory": "Unstarted Category:",
+    "inprogressgategory": "In Progress Category:",
+    "completedcategory": "Completed Category:",
+    "donotshowunlessreqsmet": "Do not show in quest log unless requirements are met",
+    "order": "Quest Log Sort Order:"
   },
   "ResourceEditor": {
     "animation": "Animation:",
@@ -1711,11 +1857,13 @@
     "paste": "Paste Resource",
     "regen": "Regen",
     "regenhint": "% of HP to restore per tick.\r\n\r\nTick timer saved in server config.json.",
+    "requirementsgroup": "Requirements",
     "requirements": "Harvesting Requirements",
+    "cannotharvest": "Cannot Harvest Message:",
     "resources": "Resources",
     "save": "Save",
     "searchplaceholder": "Search...",
-    "sortchronologically": "Order Chronologically",
+    "sortalphabetically": "Order Alphabetically",
     "spawnduration": "Spawn Duration: (ms)",
     "title": "Resource Editor",
     "tooltype": "Tool Type:",
@@ -1754,7 +1902,7 @@
     "removesolditem": "Remove Selected",
     "save": "Save",
     "searchplaceholder": "Search...",
-    "sortchronologically": "Order Chronologically",
+    "sortalphabetically": "Order Alphabetically",
     "sellcost": "Sell Cost:",
     "selldesc": "Sell Item {00} For ({01}) Item {02}",
     "sellfor": "Sell for:",
@@ -1763,7 +1911,9 @@
     "undo": "Undo Changes",
     "undoprompt": "Are you sure you want to undo changes made to this shop? This action cannot be reverted!",
     "undotitle": "Undo Changes",
-    "whitelist": "Whitelist"
+    "whitelist": "Whitelist",
+    "buysound": "Buy Sound:",
+    "sellsound": "Sell Sound:"
   },
   "SpellEditor": {
     "abilitypower": "Ability Pwr:",
@@ -1775,6 +1925,11 @@
     "casttime": "Cast Time (ms):",
     "combatspell": "Combat Spell",
     "cooldown": "Cooldown (ms):",
+    "cooldowngroup": "Cooldown Group:",
+    "cooldowngrouptitle": "Add Cooldown Group",
+    "cooldowngroupprompt": "Enter a name for the cooldown group you'd like to add:",
+    "ignoreglobalcooldown": "Ignore Global Cooldown?",
+    "ignorecooldownreduction": "Ignore Cooldown Reduction?",
     "copy": "Copy Spell",
     "cost": "Spell Cost:",
     "critchance": "Crit Chance (%):",
@@ -1835,12 +1990,13 @@
     "paste": "Paste Spell",
     "projectile": "Projectile:",
     "requirements": "Casting Requirements",
+    "cannotcast": "Cannot Cast Message:",
     "requirementsbutton": "Edit Casting Requirements",
     "save": "Save",
     "scalingamount": "Scaling Amount (%):",
     "scalingstat": "Scaling Stat:",
     "searchplaceholder": "Search...",
-    "sortchronologically": "Order Chronologically",
+    "sortalphabetically": "Order Alphabetically",
     "speed": "Speed:",
     "spells": "Spells",
     "stats": "Stat Modifiers",
@@ -1888,7 +2044,7 @@
     "playervariables": "Player Variables",
     "save": "Save",
     "searchplaceholder": "Search...",
-    "sortchronologically": "Order Chronologically",
+    "sortalphabetically": "Order Alphabetically",
     "textidgv": "Text Id: \\gv ",
     "textidpv": "Text Id: \\pv ",
     "title": "Variable Editor",
@@ -1929,12 +2085,14 @@
       "2": "Kill Npc(s) [{00} x{01}] - {02}"
     }
   },
-  "TexturePacking": {
-    "title": "Packing textures, please wait!",
+  "AssetPacking": {
+    "title": "Packing assets, please wait!",
     "deleting": "Deleting old packs...",
-    "collecting": "Creating packing list...",
-    "calculating": "Calculating rects...",
+    "collecting": "Creating texture packing list...",
+    "calculating": "Calculating texture rects...",
     "exporting": "Exporting textures...",
+    "sounds": "Packing up sounds...",
+    "music": "Packing up music...",
     "done": "Done!"
   },
   "Tiles": {
@@ -1945,12 +2103,12 @@
     "cliff": "Cliff           [VX Format]",
     "fake": "Fake         [VX Format]",
     "layer": "Layer:",
-    "layers": {
-      "0": "Ground",
-      "1": "Mask",
-      "2": "Mask 2",
-      "3": "Fringe",
-      "4": "Fringe 2"
+    "maplayers": {
+      "ground": "Ground",
+      "mask 1": "Mask 1",
+      "mask 2": "Mask 2",
+      "fringe 1": "Fringe 1",
+      "fringe 2": "Fringe 2"
     },
     "normal": "Normal",
     "tileset": "Tileset:",
@@ -2018,7 +2176,7 @@
   },
   "WarpSelection": {
     "cancel": "Cancel",
-    "chronological": "Chronological",
+    "alphabetical": "Alphabetical",
     "maplist": "Map List",
     "mappreview": "Map Preview",
     "mapselectiontitle": "Map Selection",

@@ -1,46 +1,36 @@
 {
   "Files": [
     {
-      "Path": "Intersect Client.exe",
-      "Hash": "7753005a6fdafa752599691513ce9bf6",
-      "Size": 14497280
-    },
-    {
-      "Path": "Intersect Client.pdb",
-      "Hash": "d5e2bf3290ea2fdb9243f7b5fcbabf85",
-      "Size": 900608
-    },
-    {
       "Path": "Intersect Editor.exe",
-      "Hash": "c5c738690bbe19bf2c61fd550837bed6",
-      "Size": 11443200,
+      "Hash": "c8509611170c990f0ecd497fff0b9c2d",
+      "Size": 9234432,
       "ClientIgnore": true
     },
     {
       "Path": "Intersect Editor.pdb",
-      "Hash": "f791bcd4795cb26ed5103d7719ded8f6",
-      "Size": 1605120,
+      "Hash": "942f56400cf0303b33abcde78d2b902f",
+      "Size": 1531392,
       "ClientIgnore": true
     },
     {
       "Path": "resources/client_strings.json",
-      "Hash": "f98de06d805c81d6eefca330ba8b3b7c",
-      "Size": 23642
+      "Hash": "8c42b6710464e08645673fe08aff345c",
+      "Size": 26043
     },
     {
       "Path": "resources/config.json",
-      "Hash": "0964492361d03ce9ebac49a44d5ffc70",
-      "Size": 392
+      "Hash": "d809734b267ecda2c1ddc4d117a604ae",
+      "Size": 431
     },
     {
       "Path": "resources/credits.json",
-      "Hash": "0d919fd625d4f1729f9da2ca7b6b878b",
-      "Size": 19615
+      "Hash": "057f63520f814acf654ffc9278b4605d",
+      "Size": 21870
     },
     {
       "Path": "resources/editor_strings.json",
-      "Hash": "960c164ce69d9f99aba2d3301ad4ab6c",
-      "Size": 69455
+      "Hash": "e251c431c6c9633ad3c31db52d30882e",
+      "Size": 75487
     },
     {
       "Path": "resources/animations/Blood.png",
@@ -838,6 +828,11 @@
       "Size": 260
     },
     {
+      "Path": "resources/gui/AnnouncementWindow.png",
+      "Hash": "0a52268aff8c636ffb85931325bb0a3d",
+      "Size": 352
+    },
+    {
       "Path": "resources/gui/background.png",
       "Hash": "e16f2e7eca2623c5351ba0a1e5fd1e1b",
       "Size": 1062670
@@ -884,8 +879,8 @@
     },
     {
       "Path": "resources/gui/chatbox.png",
-      "Hash": "cbb9fedefecf6b7c6f14932dfcf67166",
-      "Size": 578
+      "Hash": "22d2e209677ca3c7c98d04a54b490989",
+      "Size": 789
     },
     {
       "Path": "resources/gui/checkboxempty.png",
@@ -1103,6 +1098,16 @@
       "Size": 404
     },
     {
+      "Path": "resources/gui/guild.png",
+      "Hash": "beacb723327da3dbe778fe0a2a329577",
+      "Size": 1630
+    },
+    {
+      "Path": "resources/gui/guildicon.png",
+      "Hash": "4fe7846ee1239a07347a3ba9a63d6e7f",
+      "Size": 360
+    },
+    {
       "Path": "resources/gui/hotbar.png",
       "Hash": "7e619889075ade10b8e5d93529a262b6",
       "Size": 437
@@ -1291,6 +1296,11 @@
       "Path": "resources/gui/logo.png",
       "Hash": "1fbe7b78ff9b6f217da22ac7f6b9bde9",
       "Size": 25579
+    },
+    {
+      "Path": "resources/gui/lootwindow.png",
+      "Hash": "b1cd42b7c7c549cced996b815137b1e8",
+      "Size": 1104
     },
     {
       "Path": "resources/gui/mainmenu.png",
@@ -1538,6 +1548,26 @@
       "Size": 1178
     },
     {
+      "Path": "resources/gui/smalltab.png",
+      "Hash": "84a49e8ea189cdd23852867bb9fce002",
+      "Size": 3110
+    },
+    {
+      "Path": "resources/gui/smalltab_clicked.png",
+      "Hash": "732d382fca7d8ec6b590ad7f7d960b8d",
+      "Size": 1820
+    },
+    {
+      "Path": "resources/gui/smalltab_disabled.png",
+      "Hash": "b6d52cc17f46476d5cd8337d4402fb1f",
+      "Size": 1778
+    },
+    {
+      "Path": "resources/gui/smalltab_hovered.png",
+      "Hash": "75bb5fb178e193a1b51ebfbf1fc419ee",
+      "Size": 1779
+    },
+    {
       "Path": "resources/gui/spelldesc.png",
       "Hash": "358bca09f3dc2e174b3341ae4420c24e",
       "Size": 953
@@ -1623,6 +1653,11 @@
       "Size": 290
     },
     {
+      "Path": "resources/gui/layouts/game/AnnouncementWindow.json",
+      "Hash": "61595ac9e3785d41bced4b12070c4053",
+      "Size": 1614
+    },
+    {
       "Path": "resources/gui/layouts/game/BagItem.json",
       "Hash": "e7e42211fb1e4ef97121d6b4366a80ec",
       "Size": 2390
@@ -1639,8 +1674,8 @@
     },
     {
       "Path": "resources/gui/layouts/game/BankWindow.json",
-      "Hash": "884977e6690a0111c6e9804d4f8a4ecf",
-      "Size": 14736
+      "Hash": "7e3c0cc75f5d567aa43b9341cf9087ca",
+      "Size": 14735
     },
     {
       "Path": "resources/gui/layouts/game/CharacterWindow.json",
@@ -1649,8 +1684,8 @@
     },
     {
       "Path": "resources/gui/layouts/game/ChatboxWindow.json",
-      "Hash": "a483cfd41e342287f7e75226c8d5b9a6",
-      "Size": 29674
+      "Hash": "bb40cdc217d92938be448f2803eccd44",
+      "Size": 37508
     },
     {
       "Path": "resources/gui/layouts/game/CraftedItem.json",
@@ -1664,8 +1699,8 @@
     },
     {
       "Path": "resources/gui/layouts/game/CraftingWindow.json",
-      "Hash": "fc881e6861dc3b759658328f17138f7a",
-      "Size": 31814
+      "Hash": "509df5d3399caff4f1f72ebd15385f8d",
+      "Size": 33206
     },
     {
       "Path": "resources/gui/layouts/game/Draggable.json",
@@ -1684,8 +1719,8 @@
     },
     {
       "Path": "resources/gui/layouts/game/EventDialogWindow_1Response.json",
-      "Hash": "bf97f5c88c286771f377b13c23506a6a",
-      "Size": 25253
+      "Hash": "95d2d1642bdd8d5fa7d085776a373be1",
+      "Size": 25065
     },
     {
       "Path": "resources/gui/layouts/game/EventDialogWindow_2Responses.json",
@@ -1708,14 +1743,24 @@
       "Size": 19829
     },
     {
+      "Path": "resources/gui/layouts/game/GuildContextMenu.json",
+      "Hash": "3059a46f1baaeb00400a5928b1ad7b46",
+      "Size": 9099
+    },
+    {
+      "Path": "resources/gui/layouts/game/GuildWindow.json",
+      "Hash": "cdd607745fbbf6e1b7a3ad140bc78d85",
+      "Size": 21192
+    },
+    {
       "Path": "resources/gui/layouts/game/HotbarWindow.json",
       "Hash": "9e4c6fd4ea6d74d39106cde3be7ccb5c",
       "Size": 59354
     },
     {
       "Path": "resources/gui/layouts/game/InputBox.json",
-      "Hash": "ae29e1ab4fa3d97691114088d630036a",
-      "Size": 11280
+      "Hash": "9f0d2b455518ddb02ede3f56e32c0ff1",
+      "Size": 11281
     },
     {
       "Path": "resources/gui/layouts/game/InventoryItem.json",
@@ -1729,8 +1774,8 @@
     },
     {
       "Path": "resources/gui/layouts/game/ItemDescWindow.json",
-      "Hash": "60b50356f8b8024dfb02ceba7f1676d4",
-      "Size": 6728
+      "Hash": "fa616b8c9f47b90afec6e59dac7692d1",
+      "Size": 6707
     },
     {
       "Path": "resources/gui/layouts/game/ItemDescWindowExpanded.json",
@@ -1738,14 +1783,24 @@
       "Size": 8257
     },
     {
+      "Path": "resources/gui/layouts/game/MapItemIcon.json",
+      "Hash": "ace29a877597c03c4c396ebf5b428fb9",
+      "Size": 2396
+    },
+    {
+      "Path": "resources/gui/layouts/game/MapItemWindow.json",
+      "Hash": "04a721b0b6edc8fac3c877d99d7bb78c",
+      "Size": 13019
+    },
+    {
       "Path": "resources/gui/layouts/game/MenuContainer.json",
-      "Hash": "3edd2ec3b3c854711c2fbb5dea4923f5",
-      "Size": 15741
+      "Hash": "660265b9e749d293b0b91b2cd5747331",
+      "Size": 17892
     },
     {
       "Path": "resources/gui/layouts/game/OptionsWindow.json",
-      "Hash": "0c89f47c2c4c89973e9f2031a91e28e0",
-      "Size": 211411
+      "Hash": "b621c7cc087ecdc072a5b976669ed8bc",
+      "Size": 215629
     },
     {
       "Path": "resources/gui/layouts/game/PartyWindow.json",
@@ -1754,8 +1809,8 @@
     },
     {
       "Path": "resources/gui/layouts/game/PlayerBox.json",
-      "Hash": "051580e288c94a8ef91e3ac87fc99c56",
-      "Size": 24139
+      "Hash": "5c30046d1b3ae52f63867b4ddb650c0b",
+      "Size": 25434
     },
     {
       "Path": "resources/gui/layouts/game/PlayerStatusIcon.json",
@@ -1804,8 +1859,8 @@
     },
     {
       "Path": "resources/gui/layouts/game/TargetBox.json",
-      "Hash": "27925382ed1816e0db4f939c86f3652f",
-      "Size": 24309
+      "Hash": "9f9e2d43be48ed8bb8338132de8460ff",
+      "Size": 25683
     },
     {
       "Path": "resources/gui/layouts/game/TargetStatusIcon.json",
@@ -1849,8 +1904,8 @@
     },
     {
       "Path": "resources/gui/layouts/menu/InputBox.json",
-      "Hash": "6546202f2ccde3ba868758d19a09f267",
-      "Size": 11357
+      "Hash": "fd832b02975a09e421f6cdf300fec376",
+      "Size": 11251
     },
     {
       "Path": "resources/gui/layouts/menu/LoginWindow.json",
@@ -1869,8 +1924,8 @@
     },
     {
       "Path": "resources/gui/layouts/menu/OptionsWindow.json",
-      "Hash": "0c89f47c2c4c89973e9f2031a91e28e0",
-      "Size": 211411
+      "Hash": "b621c7cc087ecdc072a5b976669ed8bc",
+      "Size": 215629
     },
     {
       "Path": "resources/gui/layouts/menu/RegistrationWindow.json",
@@ -2196,11 +2251,6 @@
       "Path": "resources/items/Coins_01.png",
       "Hash": "2a1fbf452f491452e7d6b6c25a337124",
       "Size": 404
-    },
-    {
-      "Path": "resources/items/COPPER_COINS.png",
-      "Hash": "68ccb13d86235068a1552523b70c32cf",
-      "Size": 432
     },
     {
       "Path": "resources/items/Crown_01.png",
@@ -3379,8 +3429,8 @@
     },
     {
       "Path": "resources/misc/attributes.png",
-      "Hash": "133bb3e1a8e496fe1df9161b2825a3c6",
-      "Size": 3790
+      "Hash": "ae4dfab7a4b8e471077bbc4dee8eba0a",
+      "Size": 8190
     },
     {
       "Path": "resources/misc/castbackground.png",
@@ -5219,8 +5269,8 @@
     },
     {
       "Path": "resources/tilesets/Autotiles_Ground.png",
-      "Hash": "6df416574d77a25c0101bd46b4bf69c1",
-      "Size": 51007
+      "Hash": "985ea79bcb8f823d57c3e83030edd07d",
+      "Size": 45560
     },
     {
       "Path": "resources/tilesets/Autotiles_Houses.png",
